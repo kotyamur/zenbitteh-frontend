@@ -1,23 +1,19 @@
-import { Outlet, Link } from 'react-router-dom';
+import { Outlet } from 'react-router-dom';
 import { Suspense } from 'react';
 
-import { Box, AppBar, Container, Main } from './SharedLayout.styled';
+import { Main } from './SharedLayout.styled';
+import { AppBar } from 'components/AppBar/AppBar';
 
 export const SharedLayout = () => {
  
   return (
-    <Box>
-      <AppBar>
-        <Container>
-          <Link to="/login">Log In</Link>
-          <Link to="/register">Sign Up</Link>
-        </Container>
-      </AppBar>
+    <>
+      <AppBar />
       <Main>
         <Suspense fallback={<div>...loading</div>}>
           <Outlet />
         </Suspense>
       </Main>
-    </Box>
+    </>
   );
 };
