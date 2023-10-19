@@ -4,7 +4,7 @@ import BgImage from '../../images/mainBg.jpg'
 export const Wrapper = styled.div`
   background-color: #172234;
   width: 100%;
-  height: calc(100vh - 80px);
+  /* height: calc(100vh - 80px); */
   background-image: url(${BgImage});
   background-image: linear-gradient(
       rgba(23, 34, 52, 0.6),
