@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/807.569dcad7.chunk.js","mappings":"gMAAe,SAASA,IACtB,OACE,+BACE,oCAGL,C","sources":["pages/Deals.jsx"],"sourcesContent":["export default function Deals() {\n  return (\n    <>\n      <div>Deals</div>\n    </>\n  );\n}\n"],"names":["Deals"],"sourceRoot":""}
