@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/zenbitteh-frontend/static/css/main.192e8cd5.css",
-    "main.js": "/zenbitteh-frontend/static/js/main.bb8e20bf.js",
-    "static/js/745.c8e2926a.chunk.js": "/zenbitteh-frontend/static/js/745.c8e2926a.chunk.js",
-    "static/js/360.ea3c75d5.chunk.js": "/zenbitteh-frontend/static/js/360.ea3c75d5.chunk.js",
+    "main.js": "/zenbitteh-frontend/static/js/main.36120fdc.js",
+    "static/js/797.1fb3245f.chunk.js": "/zenbitteh-frontend/static/js/797.1fb3245f.chunk.js",
+    "static/js/360.8765639f.chunk.js": "/zenbitteh-frontend/static/js/360.8765639f.chunk.js",
     "static/js/805.1e4863fa.chunk.js": "/zenbitteh-frontend/static/js/805.1e4863fa.chunk.js",
     "static/js/568.4489376c.chunk.js": "/zenbitteh-frontend/static/js/568.4489376c.chunk.js",
     "static/media/mainBg.jpg": "/zenbitteh-frontend/static/media/mainBg.220465c3d091a5611c66.jpg",
     "static/media/loginBg.jpg": "/zenbitteh-frontend/static/media/loginBg.00ebae5a54db6d60c48a.jpg",
     "index.html": "/zenbitteh-frontend/index.html",
     "main.192e8cd5.css.map": "/zenbitteh-frontend/static/css/main.192e8cd5.css.map",
-    "main.bb8e20bf.js.map": "/zenbitteh-frontend/static/js/main.bb8e20bf.js.map",
-    "745.c8e2926a.chunk.js.map": "/zenbitteh-frontend/static/js/745.c8e2926a.chunk.js.map",
-    "360.ea3c75d5.chunk.js.map": "/zenbitteh-frontend/static/js/360.ea3c75d5.chunk.js.map",
+    "main.36120fdc.js.map": "/zenbitteh-frontend/static/js/main.36120fdc.js.map",
+    "797.1fb3245f.chunk.js.map": "/zenbitteh-frontend/static/js/797.1fb3245f.chunk.js.map",
+    "360.8765639f.chunk.js.map": "/zenbitteh-frontend/static/js/360.8765639f.chunk.js.map",
     "805.1e4863fa.chunk.js.map": "/zenbitteh-frontend/static/js/805.1e4863fa.chunk.js.map",
     "568.4489376c.chunk.js.map": "/zenbitteh-frontend/static/js/568.4489376c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.192e8cd5.css",
-    "static/js/main.bb8e20bf.js"
+    "static/js/main.36120fdc.js"
   ]
 }
