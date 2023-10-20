@@ -47,4 +47,20 @@ export const Text = styled.p`
   font-weight: 400;
   line-height: 32px; /* 133.333% */
   letter-spacing: -0.48px;
+  margin-bottom: 40px;
+`;
+
+export const ActionBtn = styled.button`
+  display: inline-flex;
+  padding: 10px 24px;
+  align-items: center;
+  border-radius: 8px;
+  border: 1px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 34px; /* 170% */
 `;

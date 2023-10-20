@@ -1,4 +1,11 @@
-import { Wrapper, Container, Box, Heading, Text } from './Home.styled';
+import {
+  Wrapper,
+  Container,
+  Box,
+  Heading,
+  Text,
+  ActionBtn,
+} from './Home.styled';
 
 export default function Home() {
   return (
@@ -13,6 +20,7 @@ export default function Home() {
               formed. The chemical compound is negatively charged. Twhile the
               mass defect is
             </Text>
+            <ActionBtn>Get Started</ActionBtn>
           </Box>
         </Container>
       </Wrapper>
