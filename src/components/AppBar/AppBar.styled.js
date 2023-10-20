@@ -5,9 +5,9 @@ export const Wrapper = styled.header`
   position: fixed;
   height: 80px;
   width: 100%;
-  background-color: #172234;
   display: flex;
   align-items: center;
+  background-color: #172234;
 `;
 
 export const Container = styled.div`
@@ -28,8 +28,8 @@ export const ButtonOutlined = styled(Link)`
   width: 160px;
   padding: 11px;
   background-color: transparent;
-  border: 1px solid #b29f7e;
   color: #b29f7e;
+  border: 1px solid #b29f7e;
   border-radius: 5px;
   font-family: 'Merriweather', serif;
   font-style: normal;
@@ -50,8 +50,8 @@ export const ButtonContained = styled(Link)`
   width: 160px;
   padding: 11px;
   background-color: #b29f7e;
-  border: 1px solid #b29f7e;
   color: #fff;
+  border: 1px solid #b29f7e;
   border-radius: 5px;
   font-family: 'Merriweather', serif;
   font-style: normal;

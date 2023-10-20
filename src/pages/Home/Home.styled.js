@@ -2,10 +2,9 @@ import styled from 'styled-components';
 import BgImage from '../../images/mainBg.jpg'
 
 export const Wrapper = styled.div`
-  background-color: #172234;
   width: 100%;
   /* height: calc(100vh - 80px); */
-  background-image: url(${BgImage});
+  /* background-image: url(${BgImage}); */
   background-image: linear-gradient(
       rgba(23, 34, 52, 0.6),
       rgba(23, 34, 52, 0.6)
@@ -14,12 +13,14 @@ export const Wrapper = styled.div`
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  background-color: #172234;
 `;
 
 export const Container = styled.div`
   width: 1280px;
   margin: 0 auto;
 `;
+
 export const Box = styled.div`
   height: 100vh;
   display: flex;
@@ -40,6 +41,7 @@ export const Heading = styled.h1`
 
 export const Text = styled.p`
   width: 822px;
+  margin-bottom: 40px;
   color: #fff;
   text-align: center;
   font-size: 24px;
@@ -47,13 +49,12 @@ export const Text = styled.p`
   font-weight: 400;
   line-height: 32px; /* 133.333% */
   letter-spacing: -0.48px;
-  margin-bottom: 40px;
 `;
 
 export const ActionBtn = styled.button`
   display: inline-flex;
-  padding: 10px 24px;
   align-items: center;
+  padding: 10px 24px;
   border-radius: 8px;
   border: 1px solid #fff;
   background-color: transparent;
