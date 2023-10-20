@@ -8,7 +8,7 @@ export const Wrapper = styled.ul`
 `;
 
 export const Deal = styled.li`
-  width: calc(100%/2 - 20px);
-  height: 300px;
+  width: calc((100% - 20px) / 2);
+  height: 400px;
   border: 1px solid #b29f7e;
 `;

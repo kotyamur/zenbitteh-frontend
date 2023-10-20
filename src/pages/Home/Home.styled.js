@@ -14,6 +14,7 @@ export const Wrapper = styled.div`
   background-position: center;
   background-size: cover;
   background-color: #172234;
+  margin-bottom: 50px;
 `;
 
 export const Container = styled.div`
@@ -65,3 +66,14 @@ export const ActionBtn = styled.button`
   font-weight: 700;
   line-height: 34px; /* 170% */
 `;
+
+export const Title = styled.h2`
+  color: #b29f7e;
+  font-family: Merriweather;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 34px;
+  margin-bottom: 20px;
+`;
+

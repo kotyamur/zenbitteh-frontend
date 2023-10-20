@@ -1,3 +1,4 @@
+import { DealsList } from 'components/DealsList/DealsList';
 import {
   Wrapper,
   Container,
@@ -5,6 +6,7 @@ import {
   Heading,
   Text,
   ActionBtn,
+  Title,
 } from './Home.styled';
 
 export default function Home() {
@@ -24,6 +26,10 @@ export default function Home() {
           </Box>
         </Container>
       </Wrapper>
+      <Container>
+        <Title>Open Deals</Title>
+        <DealsList />
+      </Container>
     </>
   );
 }
