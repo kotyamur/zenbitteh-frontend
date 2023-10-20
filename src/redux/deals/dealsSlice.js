@@ -2,7 +2,7 @@ import { createSlice } from '@reduxjs/toolkit';
 import {
   fetchDeals,
 } from './dealsOperations';
-import { logOut } from '../user/authOperations';
+import { logOut } from '../auth/authOperations';
 
 const dealsArray = [
   {

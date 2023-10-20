@@ -4,7 +4,7 @@ import { SharedLayout } from './SharedLayout/SharedLayout';
 const HomePage = lazy(() => import('../pages/Home/Home'));
 // const RegisterPage = lazy(() => import('../pages/Register'));
 const LoginPage = lazy(() => import('../pages/Login/Login'));
-const DealsPage = lazy(() => import('../pages/Deals'));
+const DealsPage = lazy(() => import('../pages/Deals/Deals'));
 const NotFoundPage = lazy(() => import('../pages/NotFound'));
 
 export const App = () => {
