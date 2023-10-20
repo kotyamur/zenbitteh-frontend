@@ -5,6 +5,7 @@ export const Wrapper = styled.ul`
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+  margin-bottom: 20px;
 `;
 
 export const Deal = styled.li`

@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import BgImage from '../../images/mainBg.jpg'
+import BgImage from '../../images/mainBg.jpg';
 
 export const Wrapper = styled.div`
   width: 100%;
@@ -66,14 +66,3 @@ export const ActionBtn = styled.button`
   font-weight: 700;
   line-height: 34px; /* 170% */
 `;
-
-export const Title = styled.h2`
-  color: #b29f7e;
-  font-family: Merriweather;
-  font-size: 28px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 34px;
-  margin-bottom: 20px;
-`;
-

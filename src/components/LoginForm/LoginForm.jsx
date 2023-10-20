@@ -1,3 +1,6 @@
+import { useFormik } from 'formik';
+import { useLocation } from 'react-router-dom';
+import * as Yup from 'yup';
 import {
   Wrapper,
   Title,
@@ -9,9 +12,6 @@ import {
   StyledQuestText,
   ErrrorText,
 } from './LoginForm.styled';
-import { useFormik } from 'formik';
-import { useLocation } from 'react-router-dom';
-import * as Yup from 'yup';
 
 export const loginSchema = Yup.object().shape({
   email: Yup.string().email('Invalid email').required('Enter your email'),
@@ -30,7 +30,7 @@ export const LoginForm = () => {
   const isLoginPage = location.pathname === '/login';
 
   const handleSubmit = (values, actions) => {
-    console.log(values)
+    console.log(values);
     actions.setSubmitting(false);
     actions.resetForm();
   };
