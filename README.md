@@ -13,3 +13,8 @@ acquainted and configure additional features
 3. Start development mode by running the `npm start` command.
 4. Go to [http://localhost:3000](http://localhost:3000) in your browser. This
    page will automatically reload after saving changes to the project files.
+
+
+Backend part on render - https://zenbitteh-backend.onrender.com/
+
+Link on GitHub backend: https://github.com/kotyamur/zenbitteh-backend
