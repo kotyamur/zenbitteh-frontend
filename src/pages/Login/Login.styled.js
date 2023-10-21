@@ -2,7 +2,8 @@ import styled from 'styled-components';
 import LoginBgImage from '../../images/loginBg.jpg';
 
 export const Wrapper = styled.div`
-  width: 100%;
+  width: 1440px;
+  margin: 0 auto;
   height: calc(100vh - 80px);
   background-image: url(${LoginBgImage});
   background-repeat: no-repeat;
