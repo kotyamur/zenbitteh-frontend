@@ -2,43 +2,8 @@ import { createSlice } from '@reduxjs/toolkit';
 import { fetchDeals } from './dealsOperations';
 import { logOut } from '../auth/authOperations';
 
-const dealsArray = [
-  {
-    name: 'The Marina Torch',
-    cost: 6500000,
-    tiketPrice: 60000,
-    outcome: 9.25,
-    daysNumber: 150,
-    sold: 75,
-  },
-  {
-    name: 'HHHR Tower',
-    cost: 6500000,
-    tiketPrice: 60000,
-    outcome: 9.25,
-    daysNumber: 150,
-    sold: 75,
-  },
-  {
-    name: 'Ocean peaks',
-    cost: 6500000,
-    tiketPrice: 60000,
-    outcome: 9.25,
-    daysNumber: 150,
-    sold: 75,
-  },
-  {
-    name: 'Al Yaqoub Tower',
-    cost: 6500000,
-    tiketPrice: 60000,
-    outcome: 9.25,
-    daysNumber: 150,
-    sold: 75,
-  },
-];
-
 const initialState = {
-  deals: dealsArray,
+  deals: [],
   isLoading: false,
   error: null,
   message: '',

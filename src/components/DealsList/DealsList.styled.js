@@ -9,17 +9,21 @@ export const Wrapper = styled.ul`
 `;
 
 export const Deal = styled.li`
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   width: calc((100% - 20px) / 2);
   height: 400px;
-  border: 1px solid #b29f7e;
+  border-radius: 5px;
   padding: 20px 14px;
-  background-image: linear-gradient(
-      rgba(23, 34, 52, 0.6),
-      rgba(23, 34, 52, 0.6)
-    );
+`;
+
+export const DealImg = styled.img`
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
 `;
 
 export const Name = styled.p`
