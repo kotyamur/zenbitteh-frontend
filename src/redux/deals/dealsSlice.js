@@ -1,7 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit';
-import {
-  fetchDeals,
-} from './dealsOperations';
+import { fetchDeals } from './dealsOperations';
 import { logOut } from '../auth/authOperations';
 
 const dealsArray = [
@@ -72,7 +70,7 @@ const dealsSlice = createSlice({
         state.isLoading = false;
       })
       .addCase(logOut.fulfilled, state => {
-        state.deals = [];
+        // state.deals = [];
         state.error = null;
         state.isLoading = false;
       })

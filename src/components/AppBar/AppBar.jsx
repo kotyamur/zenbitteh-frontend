@@ -1,5 +1,7 @@
 import { useAuth } from 'hooks/useAuth';
 import { useLocation } from 'react-router-dom';
+import { useDispatch } from 'react-redux';
+import { logOut } from 'redux/auth/authOperations';
 import {
   Container,
   Wrapper,
@@ -9,10 +11,13 @@ import {
 } from './AppBar.styled';
 
 export const AppBar = () => {
-    const location = useLocation();
-    const isLoginRegisterPage =
-      location.pathname === '/login' || location.pathname === '/register';
-    const { isLoggedIn } = useAuth();
+  const dispatch = useDispatch();
+  const location = useLocation();
+
+  const isLoginRegisterPage =
+    location.pathname === '/login' || location.pathname === '/register';
+  const { isLoggedIn } = useAuth();
+  
   return (
     <Wrapper>
       <Container>
@@ -24,7 +29,7 @@ export const AppBar = () => {
         )}
         {isLoggedIn && !isLoginRegisterPage && (
           <Box>
-            <ButtonOutlined>Log Out</ButtonOutlined>
+            <ButtonOutlined onClick={() => dispatch(logOut())}>Log Out</ButtonOutlined>
           </Box>
         )}
       </Container>

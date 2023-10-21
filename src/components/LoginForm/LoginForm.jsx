@@ -1,5 +1,6 @@
 import { useFormik } from 'formik';
-import { useLocation } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
+import { useDispatch } from 'react-redux';
 import * as Yup from 'yup';
 import {
   Wrapper,
@@ -12,6 +13,7 @@ import {
   StyledQuestText,
   ErrrorText,
 } from './LoginForm.styled';
+import { logIn, register } from 'redux/auth/authOperations';
 
 export const loginSchema = Yup.object().shape({
   email: Yup.string().email('Invalid email').required('Enter your email'),
@@ -26,13 +28,16 @@ const initialValues = {
 };
 
 export const LoginForm = () => {
+  const dispatch = useDispatch();
   const location = useLocation();
+  const navigate = useNavigate();
   const isLoginPage = location.pathname === '/login';
 
-  const handleSubmit = (values, actions) => {
-    console.log(values);
+  const handleSubmit = async (values, actions) => {
+    isLoginPage ? await dispatch(logIn(values)) : await dispatch(register(values));
     actions.setSubmitting(false);
     actions.resetForm();
+    navigate('/');
   };
 
   const formik = useFormik({
