@@ -11,7 +11,6 @@ import { selectDeals } from 'redux/deals/dealsSelectors';
 
 export const DealsList = () => {
     const deals = useSelector(selectDeals);
-    console.log(deals);
     return (
       <Wrapper>
         {deals.map(
